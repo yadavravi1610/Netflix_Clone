@@ -31,4 +31,4 @@ These instructions will get you a copy of the project up and running on your loc
 - Open the index.html file in your web browser to run the app
 
 # Live Demo
-Check out the live demo of the application at https://kumardinesh1908.github.io/imdb-clone/
+Check out the live demo of the application at https://netflix-clone-yadavravi1610.vercel.app/
