@@ -1,0 +1,321 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 0 0 0;
+  padding: 0;
+  background: #0c0c0c;
+}
+
+/* Header styles */
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+/* Logo styles */
+#netflix-logo {
+  margin: 15px 20px 15px 20px;
+  width: 120px;
+}
+
+/* input styles */
+input[type="text"] {
+  width: 48.8%;
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 5px;
+  border: transparent;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+input::-webkit-input-placeholder {
+  color: black;
+}
+
+/* "Favorite Movies" button styles */
+.all-favourite-Btn {
+  color: rgb(0, 0, 0, 0.8);
+  font-size: 24px;
+  margin-right: 50px;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background-color: rgb(201, 22, 22);
+}
+
+.all-favourite-Btn:hover {
+  color: rgb(201, 22, 22);
+  background-color: black;
+  border: 1px solid rgb(201, 22, 22);
+  cursor: pointer;
+}
+
+/* Search results styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 670px;
+  height: 460px;
+  overflow-y: auto;
+  position: absolute;
+  top: 80%;
+  left: 24.4%;
+  visibility: hidden;
+}
+
+ul::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background-color: #444444;
+}
+
+li {
+  background-color: black;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+li:hover {
+  background-color: #181818;
+  cursor: pointer;
+}
+
+/* Thumbnail styles */
+.search-item-thumbnail {
+  width: 10%;
+  height: 100%;
+}
+
+.search-item-thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Search item information styles */
+.search-item-info {
+  width: 60%;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* Favorite button styles */
+.favoriteBtn {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  background-color: rgb(201, 22, 22);
+  color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.favoriteBtn:hover {
+  background-color: black;
+  border: 1px solid rgb(201, 22, 22);
+  color: rgb(201, 22, 22);
+}
+
+/* ----Banner---- */
+
+#banner-container {
+  width: 98.75vw;
+  height: 72.5vh;
+  margin-bottom: 7px;
+  overflow: hidden;
+  position: relative;
+}
+
+#banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+#banner-title {
+  position: absolute;
+  top: 44%;
+  left: 40px;
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#button-container {
+  position: absolute;
+  top: 68%;
+  left: 42px;
+  display: flex;
+  gap: 15px;
+}
+
+#more-info,
+#play-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#play-button {
+  background-color: #fff;
+  color: #000;
+  padding: 7px 25px;
+}
+
+#play-button:hover{
+  background-color: rgba(109, 109, 110, .9);
+}
+
+#more-info {
+  background-color: rgba(109, 109, 110, .7);
+  color: #fff;
+}
+
+#more-info:hover{
+  background-color: rgb(109, 109, 110);
+}
+
+#info-icon {
+  width: 18px;
+  height: 18px;
+}
+
+#empty{
+  width: 98.75vw;
+  height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+    position: absolute;
+    bottom: 0;
+}
+
+/* ----Common Design all Sections---- */
+
+.movie-section h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.movies-box {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+/* Apply custom styles to the scrollbar */
+.movies-box::-webkit-scrollbar {
+  height: 1px;
+}
+
+.movies-box div {
+  width: 290px;
+  height: 170px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.movie-container div img {
+  width: 290px;
+  height: 170px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.movie-container div img:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.movie-container {
+  position: relative;
+}
+
+.navigation-button {
+  width: 60px;
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 9.3%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.movie-container:hover .navigation-button {
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.previous {
+  left: 15px;
+}
+
+.next {
+  right: 0%;
+}
+
+/* ----Netflix Movies---- */
+
+.netflix-container div {
+  width: 250px;
+  height: 340px;
+}
+
+.netflix-container div img {
+  width: 250px;
+  height: 340px;
+}
+
+.netflix-previous,
+.netflix-next {
+  width: 80px;
+  height: 340px;
+  top: 5.3%;
+}

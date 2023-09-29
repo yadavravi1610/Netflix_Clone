@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="/movie_details/movie_details.css"> <!-- Add your CSS file if needed -->
+</head>
+
+<body>
+    <!-- Header section -->
+    <div class="header">
+        <img src="/assests/netflix.png" alt="logo" class="logo">
+    </div>
+
+    <!-- Movie details section -->
+    <div class="movie-details">
+
+        <!-- Movie poster section -->
+        <div class="movie-poster">
+            <img id="moviePoster" src="" alt="Movie Poster">
+            <iframe width="750" height="460" frameborder="0" allowfullscreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                src="" id="iframe"></iframe>
+
+            <!-- Movie data section -->
+            <div class="movie-data">
+                <div class="design">
+                    <span>Released :</span>
+                    <p id="movieYear"></p>
+                </div>
+                <div class="design">
+                    <span>Rating :</span>
+                    <p id="rating"></p>
+                </div>
+                <div class="design language">
+                    <span>Language :</span>
+                    <p id="language"></p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Movie information section -->
+        <div class="movie-info">
+
+            <h1 id="movieTitle"></h1>
+
+            <div class="design">
+                <p id="plot"></p>
+            </div>
+
+            <div class="design genre">
+                <span>Genre :</span>
+                <p id="genre"></p>
+            </div>
+
+
+        <!-- Favorite button section -->
+        <div class="favoriteBtn"></div>
+        </div>
+    </div>
+
+    <!-- Included the JavaScript file for functionality -->
+    <script src="/movie_details/movie_details.js"></script>
+</body>
+
+</html>
