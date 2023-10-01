@@ -14,6 +14,7 @@
 
 <img src="/assests/Netflix Details.png">
 
+<<<<<<< HEAD
 ## Topics :
 
 :movie_camera: 1. Using an TMDB API in JavaScript <br>
@@ -42,3 +43,7 @@ Clone the repo in your terminal writting:
 ## Demo
 
 #### `https://netflix-clone-kumardinesh1908.vercel.app/`
+=======
+# Live Demo
+Check out the live demo of the application at https://netflix-clone-drab-one.vercel.app
+>>>>>>> deda799cb11ca034139514445c96135ecdfe17a8
