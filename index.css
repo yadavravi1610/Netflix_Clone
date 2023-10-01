@@ -27,8 +27,8 @@ body {
   height: 40px;
 }
 
-/* "Favorite Movies" button styles */
-.all-favourite-Btn {
+/* "WatchList" button styles */
+.watchList-Btn {
   width: 137px;
   height: 40px;
   margin: 15px 3.5% 15px 0px;
@@ -40,7 +40,7 @@ body {
   background-color: rgb(201, 22, 22);
 }
 
-.all-favourite-Btn:hover {
+.watchList-Btn:hover {
   color: rgb(201, 22, 22);
   background-color: black;
   border: 1px solid rgb(201, 22, 22);
@@ -146,8 +146,8 @@ input::-webkit-input-placeholder {
   padding: 0;
 }
 
-/* Favorite button styles */
-.favoriteBtn {
+/* WatchList button styles */
+.watchListBtn {
   position: absolute;
   top: 30%;
   right: 10px;
@@ -161,7 +161,7 @@ input::-webkit-input-placeholder {
   font-weight: bold;
 }
 
-.favoriteBtn:hover {
+.watchListBtn:hover {
   background-color: black;
   border: 1px solid rgb(201, 22, 22);
   color: rgb(201, 22, 22);
@@ -359,7 +359,7 @@ input::-webkit-input-placeholder {
     top: 0;
   }
 
-  .all-favourite-Btn {
+  .watchList-Btn {
     position: absolute;
     top: 0;
     right: 0;
@@ -395,7 +395,7 @@ input::-webkit-input-placeholder {
     font-size: 0.7rem;
   }
 
-  .favoriteBtn {
+  .watchListBtn {
     right: 5px;
     font-size: 12px;
   }
@@ -467,7 +467,7 @@ input::-webkit-input-placeholder {
     width: 25%;
   }
 
-  .favoriteBtn {
+  .watchListBtn {
     position: relative;
     top: 0;
     right: 5px;
@@ -547,6 +547,7 @@ input::-webkit-input-placeholder {
   .search-item-thumbnail {
     width: 15%;
   }
+
   .search-item-info h3 {
     font-size: 0.9rem;
   }
@@ -554,12 +555,14 @@ input::-webkit-input-placeholder {
   .search-item-info p {
     font-size: 0.8rem;
   }
-  .favoriteBtn {
+
+  .watchListBtn {
     position: relative;
     top: 0;
     right: 5px;
     font-size: 14px;
   }
+
   #banner-container {
     width: 100vw;
   }
@@ -568,6 +571,7 @@ input::-webkit-input-placeholder {
     bottom: 14%;
     gap: 15px;
   }
+
   #empty {
     width: 100vw;
   }

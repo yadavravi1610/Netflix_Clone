@@ -22,7 +22,7 @@ body {
     margin: 15px 20px 15px 20px;
 }
 
-/* Styling for the favorite movies heading */
+/* Styling for the WatchList heading */
 .header h1 {
     margin: 0;
     margin-right: 41%;
@@ -30,18 +30,17 @@ body {
     font-weight: 100;
 }
 
-/* Styling for the list of favorite movies */
-#favoriteMoviesList {
+/* Styling for the list of WatchList */
+#watchList-Items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
-    /* justify-content: space-evenly; */
 }
 
-/* Styling for each individual favorite movie item */
-.favorite-movie-item {
-    width: 261px;
+/* Styling for each individual WatchList item */
+.watchlist-item {
+    width: 280px;
     height: auto;
     border: 1px solid white;
     border-radius: 5px;
@@ -49,8 +48,9 @@ body {
     margin: 20px auto;
 }
 
-.favorite-movie-item:hover{
-    box-shadow: 0 0 20px rgba(253, 228, 181, 0.5); ;
+.watchlist-item:hover {
+    box-shadow: 0 0 20px rgba(253, 228, 181, 0.5);
+    ;
 }
 
 /* Styling for the thumbnail image */
@@ -100,37 +100,39 @@ p {
 /* ----Media Queries---- */
 
 @media only screen and (max-width: 560px) {
-    .header{
+    .header {
         flex-direction: column;
     }
-    .header h1{
+
+    .header h1 {
         margin: 0px;
         text-align: center;
     }
 }
 
-@media only screen and (min-width: 561px) and (max-width: 660px){
-    .header h1{
+@media only screen and (min-width: 561px) and (max-width: 660px) {
+    .header h1 {
         margin: 0px;
         margin-right: 31%;
     }
 }
 
-@media only screen and (min-width: 661px) and (max-width: 780px){
-    .header h1{
+@media only screen and (min-width: 661px) and (max-width: 780px) {
+    .header h1 {
         margin: 0px;
         margin-right: 32.5%;
     }
 }
 
-@media only screen and (min-width: 781px) and (max-width: 840px){
-    .header h1{
+@media only screen and (min-width: 781px) and (max-width: 840px) {
+    .header h1 {
         margin: 0px;
         margin-right: 37.5%;
     }
 }
-@media only screen and (min-width: 841px) and (max-width: 1025px){
-    .header h1{
+
+@media only screen and (min-width: 841px) and (max-width: 1025px) {
+    .header h1 {
         margin-right: 39.5%;
     }
 }

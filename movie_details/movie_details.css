@@ -26,8 +26,6 @@ h1 {
     margin: 15px 0px;
 }
 
-
-
 /* Movie details container */
 .movie-details {
     margin: 20px 0px;
@@ -102,8 +100,8 @@ p {
     font-weight: bold;
 }
 
-/* Favorite button styling */
-.favoriteBtn {
+/* watchList button styling */
+.watchListBtn {
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -115,8 +113,8 @@ p {
     cursor: pointer;
 }
 
-/* Favorite button hover styling */
-.favoriteBtn:hover {
+/* watchList button hover styling */
+.watchListBtn:hover {
     background: black;
     color: rgb(201, 22, 22);
     border: 1px solid rgb(201, 22, 22)
@@ -141,8 +139,8 @@ p {
         width: 90%;
         margin: auto;
         gap: 15px;
-
     }
+
     .movie-data {
         flex-direction: column;
         gap: 15px;
@@ -157,7 +155,7 @@ p {
 
     .movie-poster {
         width: 100%;
-        /* height: 360px; */
+        height: 360px;
     }
 
     .movie-info {
