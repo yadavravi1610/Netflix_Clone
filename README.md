@@ -41,4 +41,4 @@ Clone the repo in your terminal writting:
 
 ## Demo
 
-#### `https://netflix-clone-drab-one.vercel.app`
+#### `https://netflix-clone-omega-umber.vercel.app/`
